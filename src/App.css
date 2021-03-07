@@ -1,6 +1,5 @@
 .App {
   margin: auto;
-  /* display: flex; */
 }
 
 .App .title-box {
@@ -9,22 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* height: 100vh; */
 }
-
-/* .App .square-box {
-  position: absolute;
-  top: 40vh;
-  left: 30vmin;
-  height: 10vw;
-  width: 10vw;
-  background-color: crimson;
-} */
 
 .title-box p {
   z-index: 10;
-  font: 15vmin Inter, sans-serif;
+  font-size: 15vmin;
+  font-family: 'Inter';
   font-weight: 700;
   color: #ffffff;
 }
