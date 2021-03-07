@@ -24,11 +24,15 @@
 
 .title-box p {
   z-index: 10;
-  font: 15vmin helvetica neue, sans-serif;
+  font: 15vmin Inter, sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
 
-.title-box p .dot {
+.dot {
   color: crimson;
+}
+
+.dot:hover {
+  color: white;
 }
