@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <div className="square-box" />
       <div className="title-box">
-        <p>
-          welcome<span className="dot">.</span>
+        <p className="title-text">
+          in-development<span className="dot">.</span>
         </p>
       </div>
     </div>
