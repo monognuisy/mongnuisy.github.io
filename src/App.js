@@ -17,10 +17,7 @@ function App() {
         >
           blog
         </a>
-        <a
-          href="https://github.com/CHEMICALS1234"
-          className="footer-items text"
-        >
+        <a href="https://github.com/monognuisy" className="footer-items text">
           github
         </a>
         <a
