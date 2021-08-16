@@ -1,5 +1,10 @@
+:root {
+  --dark-blue: #0d055a;
+  --point-yellow: #ffd000;
+}
+
 body {
   margin: 0%;
   display: flex;
-  background-color: #ffffff;
+  background-color: var(--point-yellow);
 }
