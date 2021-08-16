@@ -7,4 +7,5 @@ body {
   margin: 0%;
   display: flex;
   background-color: var(--point-yellow);
+  overflow: hidden;
 }
