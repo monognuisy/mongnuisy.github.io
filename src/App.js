@@ -1,39 +1,45 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+import {
+  Container,
+  Header,
+  TitleBox,
+  Title,
+  Dot,
+  Subtitle,
+  SubtitleMono,
+  SubtitleHighlited,
+  Footer,
+  FooterItems,
+} from './Components/AppStyle';
+import GlobalStyle from './Components/GlobalStyle';
+
+const App = () => {
   return (
-    <div className="App">
-      <div className="header"></div>
-      <div className="title-box">
-        <p className="title">
-          hello<span className="title-text-dot">.</span>
-        </p>
-        <p className="subtitle subtitle-text">
-          this is <span className="subtitle-mono">&lt;br&gt;</span>
-          <span className="subtitle-name">Sungmin Yoo</span>
-          <span className="subtitle-mono">&lt;/br&gt;</span>
-        </p>
-      </div>
-      <div className="footer">
-        <a
-          href="https://chemicals1234.tistory.com/"
-          className="footer-items text"
-        >
+    <Container>
+      <GlobalStyle />
+      <Header></Header>
+      <TitleBox>
+        <Title>
+          hello<Dot>.</Dot>
+        </Title>
+        <Subtitle>
+          this is <SubtitleMono>&lt;br&gt;</SubtitleMono>
+          <SubtitleHighlited>Sungmin Yoo</SubtitleHighlited>
+          <SubtitleMono>&lt;/br&gt;</SubtitleMono>
+        </Subtitle>
+      </TitleBox>
+      <Footer>
+        <FooterItems href="https://chemicals1234.tistory.com/">
           blog
-        </a>
-        <a href="https://github.com/monognuisy" className="footer-items text">
-          github
-        </a>
-        <a
-          href="https://www.instagram.com/chemicals1234/"
-          className="footer-items text"
-        >
+        </FooterItems>
+        <FooterItems href="https://github.com/monognuisy">github</FooterItems>
+        <FooterItems href="https://www.instagram.com/chemicals1234/">
           instagram
-        </a>
-      </div>
-    </div>
+        </FooterItems>
+      </Footer>
+    </Container>
   );
-}
+};
 
 export default App;
