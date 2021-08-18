@@ -7,6 +7,14 @@ const GlobalStyle = createGlobalStyle`
 
 :root {
   --point-yellow: #ffd000;
+  --dimmed-black: #272727;
+}
+
+html{
+  color: var(---dimmed-black);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 2vh;
 }
 
 body {
@@ -14,6 +22,11 @@ body {
   display: flex;
   background-color: var(--point-yellow);
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(---dimmed-black);
 }
 `;
 
