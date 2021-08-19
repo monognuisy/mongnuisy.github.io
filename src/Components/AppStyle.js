@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import '../Fonts/FontStyle.css';
 
 const dimmedBlack = '#272727';
 const white = '#cccccc';

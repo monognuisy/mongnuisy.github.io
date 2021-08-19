@@ -13,12 +13,10 @@ import {
   FooterItems,
 } from './Components/AppStyle';
 import GlobalStyle from './Components/GlobalStyle';
-import FontStyles from './Fonts/FontStyle';
 
 const App = () => {
   return (
     <Container>
-      <FontStyles />
       <GlobalStyle />
       <Header></Header>
       <TitleBox>
