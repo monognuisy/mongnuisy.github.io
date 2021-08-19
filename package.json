@@ -39,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://monognuisy.github.io/"
+  "homepage": "https://monognuisy.github.io/",
+  "devDependencies": {
+    "object-assign": "^4.1.1"
+  }
 }
