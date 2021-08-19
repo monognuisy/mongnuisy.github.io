@@ -54,7 +54,7 @@ export const Subtitle = styled(Title)`
 
 export const SubtitleMono = styled.span`
   font-family: 'JetBrains Mono', monospace;
-  font-weight: 300;
+  font-weight: 400;
   color: ${gray};
 `;
 
