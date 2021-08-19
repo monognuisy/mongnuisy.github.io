@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.98afb122.chunk.js",
-    "main.js.map": "/static/js/main.98afb122.chunk.js.map",
+    "main.css": "/static/css/main.20f64934.chunk.css",
+    "main.js": "/static/js/main.f64fa913.chunk.js",
+    "main.js.map": "/static/js/main.f64fa913.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24b2425f.js",
     "runtime-main.js.map": "/static/js/runtime-main.24b2425f.js.map",
-    "static/js/2.3b8649fe.chunk.js": "/static/js/2.3b8649fe.chunk.js",
-    "static/js/2.3b8649fe.chunk.js.map": "/static/js/2.3b8649fe.chunk.js.map",
+    "static/js/2.254c52a0.chunk.js": "/static/js/2.254c52a0.chunk.js",
+    "static/js/2.254c52a0.chunk.js.map": "/static/js/2.254c52a0.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.3b8649fe.chunk.js.LICENSE.txt": "/static/js/2.3b8649fe.chunk.js.LICENSE.txt"
+    "static/css/main.20f64934.chunk.css.map": "/static/css/main.20f64934.chunk.css.map",
+    "static/js/2.254c52a0.chunk.js.LICENSE.txt": "/static/js/2.254c52a0.chunk.js.LICENSE.txt",
+    "static/media/FontStyle.css": "/static/media/jetbrains-mono-v6-latin-regular.e3af00b4.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.24b2425f.js",
-    "static/js/2.3b8649fe.chunk.js",
-    "static/js/main.98afb122.chunk.js"
+    "static/js/2.254c52a0.chunk.js",
+    "static/css/main.20f64934.chunk.css",
+    "static/js/main.f64fa913.chunk.js"
   ]
 }
