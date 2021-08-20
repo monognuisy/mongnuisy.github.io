@@ -13,10 +13,12 @@ import {
   FooterItems,
 } from './Components/AppStyle';
 import GlobalStyle from './Components/GlobalStyle';
+import { ThemeProvider } from 'styled-components';
 
 const App = () => {
   return (
     <Container>
+      {/* <ThemeProvider> */}
       <GlobalStyle />
       <Header></Header>
       <TitleBox>
@@ -38,6 +40,7 @@ const App = () => {
           instagram
         </FooterItems>
       </Footer>
+      {/* </ThemeProvider> */}
     </Container>
   );
 };
