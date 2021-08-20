@@ -30,7 +30,7 @@ export const TitleBox = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 15vmin;
+  font-size: 9rem;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5vmin;
@@ -48,7 +48,7 @@ export const Dot = styled.span`
 `;
 
 export const Subtitle = styled(Title)`
-  font-size: 5vmin;
+  font-size: 3rem;
   letter-spacing: -0.3vmin;
   margin-top: 0;
 `;

@@ -12,7 +12,7 @@ html{
   color: var(---dimmed-black);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 2vh;
+  font-size: 1rem;
 }
 
 body {
