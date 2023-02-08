@@ -32,9 +32,7 @@ const App = () => {
         </Subtitle>
       </TitleBox>
       <Footer>
-        <FooterItems href="https://chemicals1234.tistory.com/">
-          blog
-        </FooterItems>
+        <FooterItems href="https://monognuisy.github.io/blog">blog</FooterItems>
         <FooterItems href="https://github.com/monognuisy">github</FooterItems>
         <FooterItems href="https://www.instagram.com/chemicals1234/">
           instagram
