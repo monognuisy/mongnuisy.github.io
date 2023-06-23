@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.20f64934.chunk.css",
-    "main.js": "/static/js/main.c20288df.chunk.js",
-    "main.js.map": "/static/js/main.c20288df.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.24b2425f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.24b2425f.js.map",
-    "static/js/2.06413431.chunk.js": "/static/js/2.06413431.chunk.js",
-    "static/js/2.06413431.chunk.js.map": "/static/js/2.06413431.chunk.js.map",
+    "main.css": "/static/css/main.b12e7d02.css",
+    "main.js": "/static/js/main.eab69838.js",
+    "static/media/profile.webp": "/static/media/profile.847e6e2e4b52641d9662.webp",
+    "static/media/jetbrains-mono-v6-latin-italic.woff": "/static/media/jetbrains-mono-v6-latin-italic.523d95e8734465d37946.woff",
+    "static/media/jetbrains-mono-v6-latin-regular.woff": "/static/media/jetbrains-mono-v6-latin-regular.427aa5b274e56460a497.woff",
+    "static/media/inter-v3-latin-700.woff": "/static/media/inter-v3-latin-700.9bbc3125d4caf98e62a2.woff",
+    "static/media/inter-v3-latin-500.woff": "/static/media/inter-v3-latin-500.142e8dc60437fe712928.woff",
+    "static/media/inter-v3-latin-regular.woff": "/static/media/inter-v3-latin-regular.10194357ec5e44ae1777.woff",
+    "static/media/jetbrains-mono-v6-latin-italic.woff2": "/static/media/jetbrains-mono-v6-latin-italic.a65a0448afa2c6ed3908.woff2",
+    "static/media/jetbrains-mono-v6-latin-regular.woff2": "/static/media/jetbrains-mono-v6-latin-regular.e3af00b45d7cbb7f1349.woff2",
+    "static/media/inter-v3-latin-700.woff2": "/static/media/inter-v3-latin-700.74134d65fd573cb1629c.woff2",
+    "static/media/inter-v3-latin-500.woff2": "/static/media/inter-v3-latin-500.961de2d8bd7262592474.woff2",
+    "static/media/inter-v3-latin-regular.woff2": "/static/media/inter-v3-latin-regular.351b7924dd5e53fb9e5e.woff2",
     "index.html": "/index.html",
-    "static/css/main.20f64934.chunk.css.map": "/static/css/main.20f64934.chunk.css.map",
-    "static/js/2.06413431.chunk.js.LICENSE.txt": "/static/js/2.06413431.chunk.js.LICENSE.txt",
-    "static/media/FontStyle.css": "/static/media/jetbrains-mono-v6-latin-regular.e3af00b4.woff2"
+    "main.b12e7d02.css.map": "/static/css/main.b12e7d02.css.map",
+    "main.eab69838.js.map": "/static/js/main.eab69838.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.24b2425f.js",
-    "static/js/2.06413431.chunk.js",
-    "static/css/main.20f64934.chunk.css",
-    "static/js/main.c20288df.chunk.js"
+    "static/css/main.b12e7d02.css",
+    "static/js/main.eab69838.js"
   ]
 }
