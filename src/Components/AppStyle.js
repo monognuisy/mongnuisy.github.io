@@ -5,12 +5,20 @@ const dimmedBlack = '#272727';
 const white = '#cccccc';
 const pointRed = 'crimson';
 const gray = '#797979';
-const highlighter = '#2de689';
+const highlighter = '#8db1d6';
+const backBlue = '#d5e4ed';
+
+export const ContainerWrapper = styled.div`
+  margin: 0;
+  height: 100vh;  
+  width: 100vw;
+  background-color: ${backBlue};
+`;
 
 export const Container = styled.div`
   margin: auto;
-  height: 100vh;
-  width: 100vw;
+  height: 100vh;  
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,7 +30,6 @@ export const Header = styled.header`
 `;
 
 export const TitleBox = styled.div`
-  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +48,7 @@ export const Title = styled.p`
 
 export const Dot = styled.span`
   color: ${pointRed};
-
+  font-size: inherit;
   &:hover {
     color: ${dimmedBlack};
   }
@@ -56,19 +63,21 @@ export const Subtitle = styled(Title)`
 export const SubtitleMono = styled.span`
   font-family: 'JetBrains Mono', monospace;
   font-weight: 400;
+  font-size: inherit;
   color: ${gray};
 `;
 
 export const SubtitleHighlited = styled.span`
   display: inline;
+  font-size: inherit;
   box-shadow: inset 0 -3vmin 0 ${highlighter};
 `;
 
 export const Footer = styled.footer`
-  width: 50vw;
+  width: 800px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 `;
 
 export const FooterItems = styled.a`
@@ -76,4 +85,19 @@ export const FooterItems = styled.a`
   &:hover {
     box-shadow: inset 0px -10px 0 ${white};
   }
+`;
+
+export const Resume = styled.div`
+  margin: 0 auto;
+  max-width: 800px;
+`;
+
+export const Header1 = styled.h1`
+  font-size: 3rem;
+  letter-spacing: -0.3vmin;
+`;
+
+export const ImageRound = styled.img`
+  max-width: 800px;
+  border-radius: 50px;
 `;
