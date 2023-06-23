@@ -12,9 +12,9 @@ const GlobalStyle = createGlobalStyle`
 
 html{
   color: var(---dimmed-black);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Pretendard', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 body {
@@ -25,10 +25,13 @@ body {
 a {
   text-decoration: none;
   color: var(---dimmed-black);
+  &:hover {
+    box-shadow: inset 0px -10px 0 #cccccc;
+  }
 }
 
 p, span {
-  font-size: 1.2rem;
+  // font-size: 1.2rem;
   letter-spacing: -0.05rem;
 }
 

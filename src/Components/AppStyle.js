@@ -6,6 +6,7 @@ const white = '#cccccc';
 const pointRed = 'crimson';
 const gray = '#797979';
 const highlighter = '#8db1d6';
+export const textHighlight = '#6aa1d9';
 const backBlue = '#d5e4ed';
 
 export const ContainerWrapper = styled.div`
@@ -37,7 +38,7 @@ export const TitleBox = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 9rem;
+  font-size: 8rem;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5vmin;
@@ -55,7 +56,7 @@ export const Dot = styled.span`
 `;
 
 export const Subtitle = styled(Title)`
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: -0.3vmin;
   margin-top: 0;
 `;
@@ -87,14 +88,22 @@ export const FooterItems = styled.a`
   }
 `;
 
+// for resume page
+
 export const Resume = styled.div`
   margin: 0 auto;
   max-width: 800px;
 `;
 
 export const Header1 = styled.h1`
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: -0.3vmin;
+`;
+
+export const Header2 = styled.h2`
+  font-size: 2rem;
+  color: ${textHighlight};
+  letter-spacing: -0.1rem;
 `;
 
 export const ImageRound = styled.img`
