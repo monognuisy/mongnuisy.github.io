@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   --back-blue: #d5e4ed;
 }
 
-html{
+html {
   color: var(---dimmed-black);
   font-family: 'Pretendard', sans-serif;
   font-weight: 400;
@@ -36,9 +36,15 @@ p, span {
 }
 
 code {
-  padding: 0.3rem;
+  padding: 0.1rem 0.2rem;
   background-color: var(--back-blue);
   border-radius: 5px;
+}
+
+@media (max-width: 685px) {
+  html {
+    font-size: 1rem;
+  }
 }
 `;
 

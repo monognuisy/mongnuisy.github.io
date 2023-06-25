@@ -8,6 +8,7 @@ const gray = '#797979';
 const highlighter = '#8db1d6';
 export const textHighlight = '#6aa1d9';
 const backBlue = '#d5e4ed';
+const defaultPadding = '0 1.5rem';
 
 export const ContainerWrapper = styled.div`
   margin: 0;
@@ -18,6 +19,7 @@ export const ContainerWrapper = styled.div`
 
 export const Container = styled.div`
   margin: auto;
+  padding: ${defaultPadding};
   height: 100vh;  
   max-width: 800px;
   display: flex;
@@ -75,7 +77,7 @@ export const SubtitleHighlited = styled.span`
 `;
 
 export const Footer = styled.footer`
-  width: 800px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -92,7 +94,9 @@ export const FooterItems = styled.a`
 
 export const Resume = styled.div`
   margin: 0 auto;
+  padding: ${defaultPadding};
   max-width: 800px;
+  line-height: 1.6;
 `;
 
 export const Header1 = styled.h1`
@@ -107,6 +111,6 @@ export const Header2 = styled.h2`
 `;
 
 export const ImageRound = styled.img`
-  max-width: 800px;
-  border-radius: 50px;
+  max-width: min(800px, calc(100vw - 3rem));
+  border-radius: 1.5rem;
 `;

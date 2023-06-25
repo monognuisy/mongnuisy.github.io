@@ -11,9 +11,6 @@ import {
   SubtitleHighlited,
   Footer,
   FooterItems,
-  Resume,
-  Header1,
-  ResumeWrapper,
   ContainerWrapper,
 } from './Components/AppStyle';
 import GlobalStyle from './Components/GlobalStyle';
