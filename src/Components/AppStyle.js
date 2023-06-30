@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import '../Fonts/FontStyle.css';
 
@@ -95,6 +96,7 @@ export const FooterItems = styled.a`
 export const Resume = styled.div`
   margin: 0 auto;
   padding: ${defaultPadding};
+  padding-bottom: 5rem;
   max-width: 800px;
   line-height: 1.6;
 `;
@@ -110,7 +112,34 @@ export const Header2 = styled.h2`
   letter-spacing: -0.1rem;
 `;
 
+export const Header3 = styled.h3`
+  font-size: 1.5rem;
+  letter-spacing: -0.08rem;
+`;
+
 export const ImageRound = styled.img`
   max-width: min(800px, calc(100vw - 3rem));
   border-radius: 1.5rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 `;
+
+export const Link = styled.a`
+  color: ${textHighlight};
+`;
+
+export const Fig = ({ 
+  profileImage, 
+  captionContent 
+}) => {
+  return (
+    <figure style={{margin: 0}}>
+      <ImageRound src={profileImage} alt='profile' />
+      <figcaption style={{
+        margin: `0 auto`,
+        textAlign: `center`,
+        color: 'GrayText',
+        fontSize: `0.8rem`,
+      }}>{captionContent}</figcaption>
+    </figure>
+  );
+}
